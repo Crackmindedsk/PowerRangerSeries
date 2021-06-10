@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Power Ranger Series</string>
+    <string name="P1">Mighty Morphin Power Rangers</string>
+    <string name="P2">Power Rangers Zeo</string>
+    <string name="P3">Power Rangers Turbo</string>
+    <string name="P4">Power Rangers in Space</string>
+    <string name="P5">Power Rangers Lost Galaxy</string>
+    <string name="P6">Power Rangers Lightspeeds Rescue</string>
+    <string name="P7">Power Rangers Time Force</string>
+    <string name="P8">Power Rangers Wild Force</string>
+    <string name="P9">Power Rangers Ninja Storm</string>
+    <string name="P10">Power Rangers Dino Thunder</string>
+    <string name="P11">Power Rangers S.P.D</string>
+    <string name="P12">Power Rangers Mystic Force</string>
+    <string name="P13">Power Rangers Operation Overdrive</string>
+    <string name="P14">Power Rangers Jungle Fury</string>
+    <string name="P15">Power Rangers RPM</string>
+    <string name="P16">Power Rangers Samurai</string>
+    <string name="P17">Power Rangers Super Samurai</string>
+    <string name="P18">Power Rangers Megaforce</string>
+    <string name="P19">Power Rangers Super Megaforce</string>
+    <string name="P20">Power Rangers Dino Charge</string>
+    <string name="P21">Power Rangers Dino Super Charge</string>
+    <string name="P22">Power Rangers Ninja Steel</string>
+    <string name="P23">Power Rangers Super Ninja Steel</string>
+    <string name="P24">Power Rangers Beast Morphers:Season 1</string>
+    <string name="P25">Power Rangers Beast Morphors:Season 2</string>
+    <string name="P26">Power Rangers Dino Fury</string>
+
 </resources>
