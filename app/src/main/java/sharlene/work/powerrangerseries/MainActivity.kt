@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
     companion object {
         val TITTLE="title"
         val SEARCH_PREFIX="https://www.google.com/search?q="
+        val VIDEO_PREFIX="https://www.youtube.com/results?search_query="
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

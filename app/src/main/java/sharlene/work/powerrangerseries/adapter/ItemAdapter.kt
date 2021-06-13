@@ -9,12 +9,14 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.accessibility.AccessibilityNodeInfo
 import android.widget.Button
-import android.widget.ImageView
+import android.widget.ImageButton
 import androidx.annotation.RequiresApi
 import androidx.recyclerview.widget.RecyclerView
 import sharlene.work.powerrangerseries.MainActivity.Companion.SEARCH_PREFIX
+import sharlene.work.powerrangerseries.MainActivity.Companion.VIDEO_PREFIX
 import sharlene.work.powerrangerseries.R
 import sharlene.work.powerrangerseries.model.PowerRanger
+
 
 class ItemAdapter (
     private val context: Context,
@@ -22,7 +24,7 @@ class ItemAdapter (
     ):RecyclerView.Adapter<ItemAdapter.ItemViewHolder>(){
 
         class ItemViewHolder(view: View):RecyclerView.ViewHolder(view){
-            val imageView:ImageView=view.findViewById(R.id.list_image)
+            val imageButton:ImageButton=view.findViewById(R.id.list_image)
             val button:Button=view.findViewById(R.id.list_item)
 
 
@@ -40,12 +42,19 @@ class ItemAdapter (
         val item=data[position]
         holder.button.text=context.resources.getString(item.stringResourceId)
         val word=context.resources.getString(item.stringResourceId)
-        holder.imageView.setImageResource(item.imageResourceId)
+        holder.imageButton.setImageResource(item.imageResourceId)
+        holder.imageButton.setOnClickListener {
+            val queryUrl:Uri= Uri.parse("${VIDEO_PREFIX}${word}")
+            val intent=Intent(Intent.ACTION_VIEW,queryUrl)
+            context.startActivity(intent)
+
+        }
         holder.button.setOnClickListener {
             val querUrl:Uri= Uri.parse("${SEARCH_PREFIX}${word}")
             val intent=Intent(Intent.ACTION_VIEW,querUrl)
             context.startActivity(intent)
         }
+
     }
 
     companion object Accessibility: View.AccessibilityDelegate(){
