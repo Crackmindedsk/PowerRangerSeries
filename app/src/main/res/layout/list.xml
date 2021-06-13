@@ -17,8 +17,8 @@
             android:importantForAccessibility="no"
             android:scaleType="centerCrop"
             />
-        <TextView
-            android:layout_width="wrap_content"
+        <Button
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/list_item"
             android:padding="16dp"
