@@ -9,6 +9,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:importantForAccessibility="no"
+            android:scaleType="centerCrop"
+            />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
