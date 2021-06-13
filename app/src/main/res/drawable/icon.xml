@@ -1,25 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView
-        android:id="@+id/power_range"
-        android:layout_width="391.5dp"
-        android:layout_height="129.27dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="1144.48dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="899.88dp"
-        android:text="@string/power_range"
-        android:textAppearance="@style/power_range"
-        android:gravity="center_horizontal|center_vertical"
-        />
-
-    <!--
-      Font family: Fugaz One
-      Line height: 68sp
-    -->
-    <!-- styles.xml -->
-
-
-    <!-- strings.xml -->
 
 </vector>
