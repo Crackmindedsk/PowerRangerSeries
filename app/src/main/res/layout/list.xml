@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/card"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="8dp"
-    android:background="#FAF00B">
+
 
     <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#FAF00B">
 
         <ImageButton
             android:id="@+id/list_image"
@@ -19,17 +21,23 @@
             android:background="@color/white"
             android:importantForAccessibility="no"
             android:scaleType="centerCrop" />
+    </com.google.android.material.card.MaterialCardView>
 
-        <Button
-            android:id="@+id/list_item"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/gradient"
-            android:padding="16dp"
-            android:textAppearance="?attr/textAppearanceHeadline6"
-            app:backgroundTint="@null"
-            android:textColor="@color/textcolor"
-            android:textStyle="bold"
-            android:layout_marginTop="5dp" />
+    <Button
+        android:id="@+id/list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="#2979FF"
+        android:padding="10dp"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+        app:cornerRadius="20dp"
+        app:elevation="10dp"
+        app:rippleColor="@color/white"
+        app:shapeAppearance="?attr/shapeAppearanceSmallComponent" />
     </LinearLayout>
-</com.google.android.material.card.MaterialCardView>
+
