@@ -3,4 +3,8 @@
     <style name="Widget.PowerRangerSeries.Button" parent="Widget.MaterialComponents.Button">
         <item name="android:fontFamily">@font/product_sans_bold</item>
     </style>
+    <style name="Widget.PowerRangerSeries.TextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/product_sans_bold</item>
+        <item name="android:textSize">15sp</item>
+    </style>
 </resources>

@@ -15,6 +15,10 @@
         <!-- Customize your theme here. -->
         <item name="android:textColorPrimary">@color/textcolor</item>
         <item name="android:titleTextStyle">@font/product_sans_bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/product_sans_bold</item>
+        <item name="android:actionBarPopupTheme">@style/Widget.PowerRangerSeries.Button</item>
+        <item name="android:textAppearanceListItemSecondary">@style/Widget.PowerRangerSeries.TextView</item>
 
 
     </style>
