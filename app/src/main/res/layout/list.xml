@@ -38,6 +38,7 @@
         app:cornerRadius="20dp"
         app:elevation="10dp"
         app:rippleColor="@color/white"
-        app:shapeAppearance="?attr/shapeAppearanceSmallComponent" />
+        app:shapeAppearance="?attr/shapeAppearanceSmallComponent"
+        style="@style/Widget.PowerRangerSeries.Button"/>
     </LinearLayout>
 
